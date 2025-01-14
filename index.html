@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", serif;
+      }
+      nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      nav ul {
+        display: flex;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+      nav ul li :hover {
+        font-size: 1.01rem;
+        color: rgb(170, 98, 237);
+      }
+      .left {
+        font-size: 1.5rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 90px 0;
+        align-items: center;
+      }
+      .firstSection > div {
+        /* background-color: red; */
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .text-purple {
+        color: rgb(170, 98, 237);
+      }
+      .text-grey {
+        color: grey;
+      }
+      main hr {
+        border: 0;
+        background: rgb(115, 129, 239);
+        height: 1px;
+        margin: 60px 84px;
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        height: 1px;
+        margin: 56px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        background: white;
+        width: 1px;
+        height: 93px;
+        margin: 0 120px;
+      }
+      .image-top {
+        width: 23px;
+        position: relative;
+        top: -32px;
+        left: -10px;
+      }
+      .box .vertical-title {
+        position: relative;
+        top: 64px;
+        width: 150px;
+      }
+      .box .vertical-desc {
+        position: relative;
+        top: 75px;
+        color: grey;
+        font-size: 9px;
+        width: 150px;
+      }
+      footer {
+        background-color: #070615;
+      }
+      .footer {
+        display: flex;
+        /* align-items: center; */
+        padding: 30px 0;
+        justify-content: space-evenly;
+      }
+      .footer > div {
+        width: 233px;
+      }
+      .footer-first span {
+        color: rgb(170, 98, 237);
+        font-size: 1.3rem;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer ul li {
+        cursor: pointer;
+        padding-bottom: 4px;
+      }
+      .footer ul li:hover {
+        color: grey;
+      }
+      footer .footer-copyright {
+        color: grey;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Gaurav's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, My name is <span class="text-purple">Gaurav</span>
+          <div>and I am a passionate</div>
+          <!-- Element to contain animated typing -->
+          <span id="element" class="text-purple"></span>
+        </div>
+
+        <div class="rightSection">
+          <img src="bg.png" alt="error loading image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-grey">What i have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="bg.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              dignissimos asperiores reprehenderit molestias labore totam,
+              eveniet nobis quas tenetur, quo temporibus velit ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="bg.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              dignissimos asperiores reprehenderit molestias labore totam,
+              eveniet nobis quas tenetur, quo temporibus velit ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="bg.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              dignissimos asperiores reprehenderit molestias labore totam,
+              eveniet nobis quas tenetur, quo temporibus velit ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="bg.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              dignissimos asperiores reprehenderit molestias labore totam,
+              eveniet nobis quas tenetur, quo temporibus velit ipsum.
+            </div>
+          </div>
+          <div class="vertical">
+            <img src="bg.png" alt="" class="image-top" />
+            <div class="vertical-title">HTML Developer (2010-2012)</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+              dignissimos asperiores reprehenderit molestias labore totam,
+              eveniet nobis quas tenetur, quo temporibus velit ipsum.
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <span>Gaurav's Developer Portfolio</span>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        Copyrights &copy;GauravPortfolio.com | All rights reserved
+      </div>
+    </footer>
+    <!-- Load library from the CDN -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Web Designer",
+          "Java Developer",
+          "C++ Expert",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
